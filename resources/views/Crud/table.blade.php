@@ -4,15 +4,15 @@
 	<meta charset="UTF-8">
 	<title>Development Area</title>
 	<!-- ALL CSS FILES  -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="Crud/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="Crud/assets/css/style.css">
+	<link rel="stylesheet" href="Crud/assets/css/responsive.css">
 </head>
 <body>
 		
 		
 	<div class="wrap-table">
-		<a href="#" class="btn btn-primary">Add new data</a>
+		<a href="{{url('dev')}}" class="btn btn-primary">Add new data</a>
 		<div class="card shadow-sm">
 			<div class="card-body">
 				<h2>Sign UP</h2>
@@ -33,7 +33,7 @@
 							<td>Asraful Haque</td>
 							<td>haq@gmail.com</td>
 							<td>01717700811</td>
-							<td><img src="{{asset('assets/media/img/pp_photo/istockphoto-615279718-612x612.jpg')}}" alt=""></td>
+							<td><img src="{{asset('Crud/assets/media/img/pp_photo/istockphoto-615279718-612x612.jpg')}}" alt=""></td>
 							<td>
 								<a class="btn btn-sm btn-info" href="#">View</a>
 								<a class="btn btn-sm btn-warning" href="#">Edit</a>
@@ -45,7 +45,7 @@
 							<td>Asraful Haque</td>
 							<td>haq@gmail.com</td>
 							<td>01717700811</td>
-							<td><img src="{{url('assets/media/img/pp_photo/istockphoto-615279718-612x612.jpg')}}" alt=""></td>
+							<td><img src="{{url('Crud/assets/media/img/pp_photo/istockphoto-615279718-612x612.jpg')}}" alt=""></td>
 							<td>
 								<a class="btn btn-sm btn-info" href="#">View</a>
 								<a class="btn btn-sm btn-warning" href="#">Edit</a>
@@ -57,7 +57,7 @@
 							<td>Asraful Haque</td>
 							<td>haq@gmail.com</td>
 							<td>01717700811</td>
-							<td><img src="{{asset('assets/media/img/pp_photo/istockphoto-615279718-612x612.jpg')}}" alt=""></td>
+							<td><img src="{{asset('Crud/assets/media/img/pp_photo/istockphoto-615279718-612x612.jpg')}}" alt=""></td>
 							<td>
 								<a class="btn btn-sm btn-info" href="#">View</a>
 								<a class="btn btn-sm btn-warning" href="#">Edit</a>
@@ -69,7 +69,7 @@
 							<td>Asraful Haque</td>
 							<td>haq@gmail.com</td>
 							<td>01717700811</td>
-							<td><img src="{{url('assets/media/img/pp_photo/istockphoto-615279718-612x612.jpg')}}" alt=""></td>
+							<td><img src="{{url('Crud/assets/media/img/pp_photo/istockphoto-615279718-612x612.jpg')}}" alt=""></td>
 							<td>
 								<a class="btn btn-sm btn-info" href="#">View</a>
 								<a class="btn btn-sm btn-warning" href="#">Edit</a>
@@ -81,7 +81,7 @@
 							<td>Asraful Haque</td>
 							<td>haq@gmail.com</td>
 							<td>01717700811</td>
-							<td><img src="{{URL::to('assets/media/img/pp_photo/istockphoto-615279718-612x612.jpg')}}" alt=""></td>
+							<td><img src="{{URL::to('Crud/assets/media/img/pp_photo/istockphoto-615279718-612x612.jpg')}}" alt=""></td>
 							<td>
 								<a class="btn btn-sm btn-info" href="#">View</a>
 								<a class="btn btn-sm btn-warning" href="#">Edit</a>
@@ -104,9 +104,9 @@
 
 
 	<!-- JS FILES  -->
-	<script src="assets/js/jquery-3.4.1.min.js"></script>
-	<script src="assets/js/popper.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/custom.js"></script>
+	<script src="{{url('Crud/assets/js/jquery-3.4.1.min.js')}}"></script>
+	<script src="{{asset('Crud/assets/js/popper.min.js')}}"></script>
+	<script src="{{URL::to('Crud/assets/js/bootstrap.min.js')}}"></script>
+	<script src="{{url('Crud/assets/js/custom.js')}}"></script>
 </body>
 </html>

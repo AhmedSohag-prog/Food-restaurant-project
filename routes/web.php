@@ -12,17 +12,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-// Route::get('/	dev/{name}/{job}', function ($name='sohag',$job='')
-// {
-// 	echo "I am $name and I am a $job developer";
-// });
-
-Route::get('/','blogController@showHomepage');
-Route::get('blog','blogController@showBlogpage');
-Route::get('gallery','blogController@showGallerypage');
-Route::get('location','blogController@showLocationpage');
-Route::get('menu','blogController@showMenupage');
-Route::get('reservation','blogController@showReservationpage');
-Route::get('news','blogController@showNewspage');
-Route::get('staff','blogController@showStaffpage');
+Route::get('/dev','CrudController@ShowCrudPage');
+Route::get('/table','CrudController@ShowTablePage');
+Route::post('/crud-all','CrudController@SubmitFormData');
